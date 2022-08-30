@@ -439,12 +439,13 @@ body {
     color: #645C55;
     width: 581px;
     padding-top: 15px;
+    margin-bottom: 44px;
 
 }
 
 .white-house {
     background-image: url('img/white-house.jpg');
-    
+
 }
 
 .project-box {
@@ -469,8 +470,8 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #645C55;
-    padding-top: 40px ;
-    padding-left: 40px ;
+    padding-top: 40px;
+    padding-left: 40px;
 
 }
 
@@ -508,11 +509,12 @@ body {
     z-index: -1;
 }
 
-.read-more__button > a {
+.read-more__button>a {
     color: #FFF;
 }
 
-.read-more__button:hover, .new-york:hover {
+.read-more__button:hover,
+.new-york:hover {
     z-index: 1;
 }
 
@@ -525,8 +527,72 @@ body {
     display: flex;
 }
 
+.team-section {
+    display: flex;
+    justify-content: center;
+}
+
 .team-desc {
     max-width: 378px;
     padding-right: 20px;
     margin-right: 16px;
+}
+
+.team-profile {
+    margin-top: 108px;
+}
+
+.team-desc__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    margin-top: 96px;
+
+}
+
+.person__container > img, .person {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.team-desk__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+.person__container {
+    margin-left: 100px;
+    display: inline-block;
+    margin-bottom: 52px;
+}
+
+.person-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+    margin-bottom: -10px;
+}
+
+.person-qualification {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+    display: inline-block;
+}
+
+.person {
+    margin-left: 30px;
 }
